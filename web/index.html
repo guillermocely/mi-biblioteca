@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iniciar Sesión - Mi Biblioteca</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img src="logo.png" alt="Logo de la biblioteca">
+        <h2>Iniciar Sesión</h2>
+        <form name="loginForm" action="RecibirDatos" method="post">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required />
+            <br><br>
+
+            <label for="clave">Clave:</label>
+            <input type="password" id="clave" name="clave" required />
+            <br><br>
+
+            <input type="submit" value="Ingresar" />
+        </form>
+        
+        <br>
+        <a href="registro.html">¿No tienes cuenta? Regístrate aquí</a>
+    </body>
+</html>
