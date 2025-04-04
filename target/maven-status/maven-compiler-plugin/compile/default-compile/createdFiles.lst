@@ -1,0 +1,4 @@
+com\biblioteca\models\Usuario.class
+com\biblioteca\controllers\AuthController.class
+com\biblioteca\services\UsuarioService.class
+com\biblioteca\utils\DatabaseConnection.class
